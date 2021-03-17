@@ -214,14 +214,40 @@ form input{
     color: #fff;
     margin: 40px;
 }
-
+.bar-icon-1{
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+span {
+    position: relative;
+    bottom: 0px;
+    left: 85%;
+    flex-wrap: wrap;
+  }
 
 @media only screen and (max-width: 900px){
     .conterner1{
         flex-wrap: wrap;
     }
-}
+    nav ul li a{
+        display: none;
+    }
+} 
+@media only screen and (max-width: 790px) {
+    nav ul li a{
+        display: block;
+    }
+    .bar-icon-1{
+        display: block;
+    }
 
+@media only screen and (max-width: 550px){
+    .bar-icon-1{
+        right: 0%;
+        left: 0%;
+    }
+}
 @media only screen and (max-width: 700px) {
     .body-title{
     padding: 0%;

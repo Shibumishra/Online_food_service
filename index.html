@@ -16,7 +16,8 @@
                 <a href="#"><img class="logo" src="https://www.freeiconspng.com/uploads/food-png-6.png" width="60px"
                         alt="food-logo"></a>
             </div>
-            <ul>
+            <span class="bar-icon-1" onclick="myFunction()">&#9776</span>
+            <ul id="mylinks">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">About Us</a></li>
@@ -87,6 +88,20 @@
             </div>
         </footer>
     </header>
+    <script>
+        
+        function myFunction(){
+                var x = document.getElementById("mylinks");
+                if(x.style.display == "block")
+                {
+                    x.style.display = "none"
+                }
+                else{
+                    x.style.display = "block"
+                    
+                }
+            }
+    </script>
 </body>
 
 </html>
