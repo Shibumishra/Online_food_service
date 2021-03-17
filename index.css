@@ -231,7 +231,13 @@ form input{
     }
     .title-service{
         margin-top: 400px;
-    } 
+    }
+    .client-img{
+        height: 100vh;
+    }
+    .contact-img{
+        height: 100vh;
+    }
 }
 @media only screen and (max-width: 350px) {
     .body-title{
@@ -242,5 +248,8 @@ form input{
     }
     .title-service{
         margin-top: 0%;
+    }
+    .client-img{
+        height: 150vh;
     }
 }
