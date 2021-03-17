@@ -51,7 +51,7 @@ header{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap; 
-    padding: 100px; 
+    padding: 120px; 
 }
 .body-title h1{
     font-family: 'Poppins', sans-serif;
@@ -133,9 +133,87 @@ header{
     text-align: center;
     color: rgba(255, 247, 247, 0);
 }
-
-
-
+.client-img{
+    background-image: linear-gradient(
+        76deg,
+        rgba(65, 65, 70, 0.83) 35%,
+        rgba(113, 123, 163, 0.28) 65%
+      ), url(https://images.pexels.com/photos/65174/pexels-photo-65174.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    flex-wrap: wrap;
+}
+.client-title{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+.client-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.client-section img{
+    width: 150px;
+    padding: 20px;
+    height: 150px;
+    border-radius: 40px;
+}
+.contact-img{
+    background-image: linear-gradient(
+        76deg,
+        rgba(12, 17, 15, 0.83) 35%,
+        rgba(9, 20, 66, 0.28) 65%
+      ), url(https://images.pexels.com/photos/17663/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#from-secaton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    margin: 20px auto;
+}
+form input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    align-items: center;
+}
+.submit-btn{
+    margin: 0% auto; 
+    color: white;
+    font-size: 15px;
+    background-color: rgb(9, 168, 129);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(245, 245, 245);
+    cursor: pointer;
+    outline: none;
+}
+.submit-btn:hover{
+    background-color: antiquewhite;
+    color: #000;
+}
+.name{
+    font-size: 25px;
+}
+.footer-title{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    margin: 40px;
+}
 
 
 @media only screen and (max-width: 900px){
